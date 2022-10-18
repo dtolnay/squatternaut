@@ -15,6 +15,7 @@ use semver::Version;
 use serde::{Deserialize, Serialize};
 use std::cmp::Reverse;
 use std::collections::btree_map::{BTreeMap as Map, Entry};
+use std::collections::BTreeSet as Set;
 use std::io::Write;
 use std::path::Path;
 use std::process;
@@ -83,7 +84,7 @@ fn try_main(stderr: &mut StandardStream) -> Result<()> {
         })
         .load(db_dump)?;
 
-    let mut output = Map::new();
+    let mut squatted = Set::new();
     for row in csv::Reader::from_path(SQUATTED_CSV)?.into_deserialize() {
         let row: Row = row?;
         let crate_id = match crates.get(&row.name) {
@@ -102,26 +103,30 @@ fn try_main(stderr: &mut StandardStream) -> Result<()> {
                 continue;
             }
         }
-        let owners = if let Some(published_by) = max_version.published_by {
-            vec![published_by]
-        } else {
-            crate_owners.get(crate_id).map_or_else(Vec::new, Vec::clone)
-        };
-        output.insert(row.name, (owners, max_version.num.clone()));
+        squatted.insert(row.name);
     }
 
     let mut writer = csv::Writer::from_path(SQUATTED_CSV)?;
     let mut leaderboard = Map::new();
-    for (krate, (owners, version)) in output {
+    for name in squatted {
+        let crate_id = crates[&name];
+        let version = &versions[&crate_id];
+        let owners = if let Some(published_by) = version.published_by {
+            vec![published_by]
+        } else {
+            crate_owners
+                .get(&crate_id)
+                .map_or_else(Vec::new, Vec::clone)
+        };
         let user = if owners.len() == 1 {
             users[&owners[0]].clone()
         } else {
             String::new()
         };
         writer.serialize(Row {
-            name: krate,
+            name,
             user,
-            version: Some(version),
+            version: Some(version.num.clone()),
         })?;
         for user_id in owners {
             *leaderboard.entry(user_id).or_insert(0) += 1;
