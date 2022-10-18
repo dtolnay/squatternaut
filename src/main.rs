@@ -1,6 +1,7 @@
 #![allow(
     clippy::let_underscore_drop,
     clippy::module_name_repetitions,
+    clippy::too_many_lines,
     clippy::uninlined_format_args
 )]
 
@@ -52,14 +53,16 @@ fn try_main(stderr: &mut StandardStream) -> Result<()> {
         process::exit(1);
     }
 
-    let mut crates = Map::new();
+    let mut crate_id_to_name = Map::new();
+    let mut crate_name_to_id = Map::new();
     let mut versions = Map::new();
     let mut crate_owners = Map::new();
     let mut users = Map::new();
     db_dump::Loader::new()
         .crates(|row| {
             let name = CrateName::new(row.name);
-            crates.insert(name, row.id);
+            crate_id_to_name.insert(row.id, name.clone());
+            crate_name_to_id.insert(name, row.id);
         })
         .versions(|row| match versions.entry(row.crate_id) {
             Entry::Vacant(entry) => {
@@ -87,7 +90,7 @@ fn try_main(stderr: &mut StandardStream) -> Result<()> {
     let mut squatted = Set::new();
     for row in csv::Reader::from_path(SQUATTED_CSV)?.into_deserialize() {
         let row: Row = row?;
-        let crate_id = match crates.get(&row.name) {
+        let crate_id = match crate_name_to_id.get(&row.name) {
             Some(crate_id) => crate_id,
             // Crate deleted from crates.io
             None => continue,
@@ -106,10 +109,20 @@ fn try_main(stderr: &mut StandardStream) -> Result<()> {
         squatted.insert(row.name);
     }
 
+    for (crate_id, version) in &versions {
+        if version.num.pre.contains("reserved")
+            || version.num.build.contains("reserved")
+            || version.num.pre.contains("placeholder")
+            || version.num.build.contains("placeholder")
+        {
+            squatted.insert(crate_id_to_name[crate_id].clone());
+        }
+    }
+
     let mut writer = csv::Writer::from_path(SQUATTED_CSV)?;
     let mut leaderboard = Map::new();
     for name in squatted {
-        let crate_id = crates[&name];
+        let crate_id = crate_name_to_id[&name];
         let version = &versions[&crate_id];
         let owners = if let Some(published_by) = version.published_by {
             vec![published_by]
