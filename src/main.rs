@@ -1,3 +1,9 @@
+#![allow(
+    clippy::let_underscore_drop,
+    clippy::module_name_repetitions,
+    clippy::uninlined_format_args
+)]
+
 mod log;
 mod name;
 
