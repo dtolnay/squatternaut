@@ -1175,7 +1175,6 @@ boost,swmon,0.0.1
 booster,jordens,0.0.1
 boot,strake,0.0.0
 bootleg,boeotian,0.1.0
-bootstraps,0xFounders,0.1.0
 borg,machmars,0.1.0
 boring-xml,naomijub,0.1.0
 boringssl-sys,joshlf,0.0.0
@@ -2015,6 +2014,7 @@ crusadertest1,brson,0.1.0
 crusier_derive,Buzzec,0.0.0
 crustaceans,bkda,0.1.0
 cry4,niluxv,0.0.0
+crykit,franziskuskiefer,0.0.0
 cryptdll-sys,retep998,0.0.1
 cryptnet-sys,retep998,0.0.1
 crypto-client,soulmachine,0.1.0
@@ -2044,6 +2044,7 @@ crystalfs-protocol,losfair,0.0.0
 crystalfs-server,losfair,0.0.0
 crystalline,a-kenji,0.1.0
 crystals,defund,0.0.0
+crytikal,franziskuskiefer,0.0.0
 cscapi-sys,retep998,0.0.1
 cscdll-sys,retep998,0.0.1
 csk,Xuanwo,0.0.0
@@ -2466,6 +2467,7 @@ dog,return,0.1.0
 doga-add-numbers,dogafincan,0.1.0
 doga-hello-world,dogafincan,0.1.0
 doge-lang,pecimuth,0.1.0
+doja,a-kenji,0.1.0
 dojo,cosier,0.1.0
 doki-core,oovm,0.1.0
 doki-git,oovm,0.1.1
@@ -2867,7 +2869,7 @@ eopsin,zakarumych,0.0.0
 eos,Rapptz,0.0.0
 eos-tz,Rapptz,0.0.0
 eos-tzdata,Rapptz,0.0.0
-epage-publish-test,epage,0.1.12
+epage-publish-test,epage,0.1.14
 epaxos,thedodd,0.1.0
 epic,andres-roman,0.0.0
 epics,POPPIN-FUMI,0.1.0
@@ -3206,6 +3208,7 @@ firrtl,dan-fritchman,0.1.0
 first,rustpark,0.0.0
 first_crate_test_12345,Jasperav,0.1.2
 first-function,TomaszWaszczyk,0.1.0
+first_test,jizhiwei213,0.1.0
 firu,rschleitzer,0.0.0
 fis,Kilerd,0.0.1-alpha.1
 fission,rellfy,0.0.0
@@ -3656,7 +3659,6 @@ glances,impossible98,0.1.0
 glean-sdk,badboy,0.0.0
 glen,lunabunn,0.0.0
 glfn,viriuwu,0.0.1
-glib-build-tools,sdroege,0.0.0
 glitch,laskowski,0.0.0
 glitchy,Shella,0.0.0
 glmf32-sys,retep998,0.0.1
@@ -3917,6 +3919,7 @@ gst-plugin-rust-av,sdroege,0.0.0
 gst-plugin-srt,sdroege,0.0.0
 gst-plugin-tracers,sdroege,0.0.0
 gst-plugin-vobsub,sdroege,0.0.0
+gst-plugin-webrtc,sdroege,0.0.0
 gst-plugin-webrtchttp,sdroege,0.0.0
 gst-plugin-webrtcsink,sdroege,0.0.0
 gst-plugin-y4m,sdroege,0.0.0
@@ -3972,6 +3975,7 @@ hackathon-starter,marlonhanks,0.0.0
 hacker,andres-roman,0.0.0
 hackernews,liuchong,0.0.0
 hacl,aatxe,0.0.1
+hacs,franziskuskiefer,0.0.0
 hades,graysonarts,0.1.0
 hadron,mtso,0.1.0
 hadron-cli,thedodd,0.0.0
@@ -4032,6 +4036,7 @@ he-rpc,Juici,0.0.0
 header-chain,marlonhanks,0.0.0
 headers-relay,marlonhanks,0.0.0
 headers-util,seanmonstar,0.0.0
+headsup,0xFounders,0.1.0
 health_check,plwai,0.0.0
 health-kit,btwiuse,0.1.1
 heaps,maraisr,0.0.1
@@ -4246,6 +4251,7 @@ httprobe,andreystepanov,0.1.0
 httpx,Lispython,0.0.1
 htx,eiz,0.1.0
 huak-core,cnpryer,0.0.0
+huatuo,chuanlin-sun,0.1.0
 huawei,GaoangLiu,0.0.1
 hubble,hzqd,0.0.0-alpha.1
 huedot-api,Pjottos,0.0.1
@@ -4903,6 +4909,7 @@ ksection,norcalli,0.0.0
 ksleo_public_test,leokang28,0.1.0
 ksproxy-sys,retep998,0.0.1
 ksuser-sys,retep998,0.0.1
+kuafu,chuanlin-sun,0.1.0
 kubectx-rs,FGRibreau,1.0.1
 kubehero,DenisKolodin,0.1.0
 kubik,astefanutti,0.0.0
@@ -4932,9 +4939,6 @@ kwiwk-option,russleyshaw,0.1.0
 kwiwk-result,russleyshaw,0.1.0
 kylo,ekoutanov,0.0.0
 l,losfair,0.1.0
-l10n,MathieuTricoire,0.0.0
-l10n_core,MathieuTricoire,0.0.0
-l10n_impl,MathieuTricoire,0.0.0
 l3-37,,0.0.0
 labrat,Vypo,0.1.0
 lake,sorpaas,0.1.0
@@ -5066,6 +5070,8 @@ libfz,miraclx,0.0.0
 libgot,pgarceau,0.1.0
 libgram,zero-systems,0.1.0
 libgrpc,dyxushuai,0.0.1
+libhacs,franziskuskiefer,0.0.0
+libhelix,Oliver-makes-code,0.1.0
 libimgine,salasrod,0.1.0
 libmetaproxy,upsp,0.0.0
 libnice-rs,abdul-0,0.1.0
@@ -5313,6 +5319,7 @@ luable,midimapu,0.1.8
 luau,LoganDark,0.0.0
 luau-sys,LoganDark,0.0.0
 lub,liuchong,0.0.0
+luban,chuanlin-sun,0.1.0
 lube,sergree,0.0.0
 lucas_rocha,LucasRochaAbraao,0.1.0
 lucat,inkhare,0.0.0
@@ -5531,6 +5538,11 @@ matrix-sdk-bot,ShadowJonathan,0.1.0
 matrix-sdk-crypto-ffi,gnunicorn,0.0.1-reserved
 matrix-sdk-ffi,gnunicorn,0.0.1-reserved
 matrix-voice,jeikabu,0.1.0
+matroskin-build,Veetaha,0.1.0
+matroskin-core,Veetaha,0.1.0
+matroskin-core-build,Veetaha,0.1.0
+matroskin-grpc-build,Veetaha,0.1.0
+matroskin-grpc-build-macros,Veetaha,0.1.0
 matt,lightclient,0.0.0
 matthieu,r3v2d0g,0.0.0
 maui,nylonicious,0.0.0
@@ -6048,6 +6060,7 @@ multiversal,strake,0.0.0
 multiverse,strake,0.0.0
 mum,dyxushuai,0.0.0
 mune,Moxinilian,0.0.0
+muniuniuma,chuanlin-sun,0.1.0
 muon,rakenodiax,0.1.0
 muse,ecton,0.0.1-dev
 mush,bvssvni,0.1.2
@@ -6394,7 +6407,7 @@ nux,jprochazk,0.0.0
 nuxt,qcqi,0.0.1
 nvc,a-kenji,0.1.0
 nvcheck,a-kenji,0.1.0
-nvim,ModProg,0.0.0
+nvim,ModProg,0.0.1
 nvle,ericmarkmartin,0.1.0
 nvm,afshinm,0.1.0
 nvwa,u3e,0.1.0
@@ -6462,6 +6475,7 @@ object-engine,huachaohuang,0.1.0
 objects,lukephillippi,0.1.0
 objsel-sys,retep998,0.0.1
 observable,killercup,0.0.0
+obsolescent-cell,Veetaha,0.1.0
 oc,UnderSwitch,0.1.0
 oca,JamesHallowell,0.1.2
 ocap,tony-iqlusion,0.0.0
@@ -6771,7 +6785,6 @@ parade,irfius,0.1.0
 parakeet,u1f408,0.0.0
 parallax,alphastrata,0.0.1
 paraos,yrashk,0.0.0
-parasite,0xFounders,0.1.0
 parasol,nical,0.0.0
 parawasm,yrashk,0.0.0
 parcel,nathan,1.0.0
@@ -7215,11 +7228,13 @@ proto,Schultzer,0.0.0
 proto-voxel,naomijub,0.1.0
 proto3,vkill,0.0.0
 protobash,korteland,0.1.0
+protobuf-in-json,Veetaha,0.1.0
 protoc-gen-prost-validate,neoeinstein,0.0.1
 protokit,semtexzv,0.1.0
 protoloop,kotovalexarian,0.0.0
 proton-core,FL03,0.1.0
 protonic,FL03,0.1.0
+providence,SludgePhD,0.0.0
 provision,bevanhunt,0.0.1
 provision-cli,bevanhunt,0.0.1
 provisioner,marlonhanks,0.0.0
@@ -7787,6 +7802,7 @@ rock,wyhaya,0.0.0-alpha.2
 rock_rs,kazuki0824,0.1.0
 rocker,danclive,0.1.0
 rocket_ext_jwt,rakenodiax,0.1.0
+rocket-rust,karpa4o4,0.1.0
 rocketchat,karpa4o4,0.1.0
 rocketeer,JosephLenton,0.1.0
 rocketscience,badboy,0.0.0
@@ -8422,6 +8438,7 @@ scrooge-mcduck,alarsyo,0.1.0
 scrut,ukautz,0.1.0
 scry,mendess,0.1.0
 scrypto_statictypes,devmannic,0.0.1
+sctp-rs,gabhijit,0.0.1
 scttr,QuarticCat,0.0.1
 scuba,badboy,0.0.0
 scuff,manoadamro,0.0.1
@@ -8578,6 +8595,7 @@ sheesh,aDotInTheVoid,0.0.0
 sheet,fominok,0.1.0
 shekel,llp-devr,0.1.0
 shellkit,casey,0.0.0
+shennong,chuanlin-sun,0.1.0
 sherlock,Vurich,0.1.0
 shfolder-sys,retep998,0.0.1
 shield,tmechelke,0.1.0
@@ -8667,6 +8685,7 @@ sjq-crate-publish-demo,songjiaqi1,0.1.0
 sjson,tidwall,0.1.0
 sk,avitex,0.0.0
 skald,farshed,0.1.0
+skale,Rowan-Lee,0.1.0
 skein,newpavlov,0.0.0
 skeletor,fkoep,0.0.0
 ski,JayceFayne,0.1.0
@@ -8834,7 +8853,6 @@ spine-sys,jaynus,0.1.1
 spinus,mishaszu,0.1.0
 spirt,eddyb,0.0.0
 spk,rydrman,0.1.0
-spl-instruction-padding,solana-grimes,0.0.1
 spl-token-upgrade,hackerhero1005,0.0.1
 spl-token-upgrade-cli,hackerhero1005,0.0.1
 spl-token-wrap,solana-grimes,0.0.1
@@ -8873,6 +8891,7 @@ sqlx-oracledb,abonander,0.1.0
 sqlx-postgres,mehcode,0.0.0
 sqlx-sqlite,mehcode,0.0.0
 squat,bbqsrc,0.0.1
+squatternaut,dtolnay,0.0.0
 squeegee,EthanYidong,0.1.0
 squeeze,jamolnng,0.0.1
 srcdream,a-kenji,0.1.0
@@ -9970,6 +9989,7 @@ turbo-tasks,ForsakenHarmony,0.0.0
 turbo-tasks-build,ForsakenHarmony,0.0.0
 turbo-tasks-env,ForsakenHarmony,0.0.0
 turbo-tasks-fs,ForsakenHarmony,0.0.0
+turbo-tasks-hash,ForsakenHarmony,0.0.0
 turbo-tasks-macros,ForsakenHarmony,0.0.0
 turbo-tasks-macros-shared,ForsakenHarmony,0.0.0
 turbo-tasks-memory,ForsakenHarmony,0.0.0
@@ -9983,6 +10003,7 @@ turbocharger-template,trevyn,0.0.0
 turbod,trevyn,0.0.0
 turboencabulator,trevyn,0.0.0
 turboid,trevyn,0.0.0
+turbolint,ForsakenHarmony,0.0.0
 turbonet,trevyn,0.0.0
 turbopack,ForsakenHarmony,0.0.0
 turbopack-cli-utils,ForsakenHarmony,0.0.0
@@ -10003,6 +10024,7 @@ turbopack-rocksdb,ForsakenHarmony,0.0.0
 turbopack-runtime,ForsakenHarmony,0.0.0
 turbopack-static,ForsakenHarmony,0.0.0
 turbopack-swc-utils,ForsakenHarmony,0.0.0
+turbopack-vue,ForsakenHarmony,0.0.0
 turbopack-wasm,ForsakenHarmony,0.0.0
 turbopark-rust,thclark,0.1.1
 turbopay,trevyn,0.0.0
@@ -10012,7 +10034,9 @@ turboshaft,vertexclique,0.0.0
 turboshaft-core,vertexclique,0.0.0
 turbostack,trevyn,0.0.0
 turbostudio,trevyn,0.0.0
+turbotest,ForsakenHarmony,0.0.0
 turbotime,trevyn,0.0.0
+turbotrace,ForsakenHarmony,0.0.0
 turbowish,nikomatsakis,0.1.0
 turnkey,rustpark,0.0.0
 turron,zkat,0.0.0
@@ -11358,8 +11382,10 @@ zksync,qcqi,0.0.1
 zkvm,oleganza,0.0.0
 zkwasmer,FullyNonlinear,0.0.1
 zkwasmtime,FullyNonlinear,0.0.1
+zl,a-kenji,0.1.0
 zlite,marlonhanks,0.0.0
 zmap,dadrian,0.0.1
+zo,a-kenji,0.1.0
 zombienet,drahnr,0.0.0
 zombienet-execution,drahnr,0.0.0
 zombienet-execution-kubernetes,drahnr,0.0.0
