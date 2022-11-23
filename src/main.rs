@@ -90,15 +90,17 @@ fn try_main(stderr: &mut StandardStream) -> Result<()> {
     let mut squatted = Set::new();
     for row in csv::Reader::from_path(SQUATTED_CSV)?.into_deserialize() {
         let row: Row = row?;
-        let crate_id = match crate_name_to_id.get(&row.name) {
-            Some(crate_id) => crate_id,
+        let Some(crate_id) = ({
+            crate_name_to_id.get(&row.name)
+        }) else {
             // Crate deleted from crates.io
-            None => continue,
+            continue;
         };
-        let max_version = match versions.get(crate_id) {
-            Some(max_version) => max_version,
+        let Some(max_version) = ({
+            versions.get(crate_id)
+        }) else {
             // All versions deleted from crates.io
-            None => continue,
+            continue;
         };
         if let Some(version) = row.version {
             if version != max_version.num {
