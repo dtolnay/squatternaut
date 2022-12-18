@@ -111,10 +111,20 @@ fn try_main(stderr: &mut StandardStream) -> Result<()> {
     }
 
     for (crate_id, version) in &versions {
-        if version.num.pre.contains("reserved")
-            || version.num.build.contains("reserved")
-            || version.num.pre.contains("placeholder")
-            || version.num.build.contains("placeholder")
+        let pre = version.num.pre.to_ascii_lowercase();
+        let build = version.num.build.to_ascii_lowercase();
+        if pre.contains("reserve")
+            || build.contains("reserve")
+            || pre.contains("placeholder")
+            || build.contains("placeholder")
+            || pre.contains("dummy")
+            || pre.contains("empty")
+            || pre.contains("initial")
+            || pre.contains("invisible")
+            || pre.contains("nothing")
+            || pre.contains("squat")
+            || pre.contains("stub")
+            || pre.contains("unreleased")
         {
             squatted.insert(crate_id_to_name[crate_id].clone());
         }

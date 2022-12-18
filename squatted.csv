@@ -600,6 +600,7 @@ async-foundation,carllerche,0.0.0
 async-frame,stjepang,0.1.0
 async-future,r3v2d0g,0.0.0
 async-generator,taiki-e,0.0.0
+async-git,iptq,0.0.0-squat-name
 async-grpc,stjepang,0.2.0
 async-h2,yoshuawuyts,0.0.0
 async-h3,yoshuawuyts,0.0.0
@@ -700,6 +701,7 @@ asyncx,carllerche,0.0.0
 asynv-executor,r3v2d0g,0.0.0
 at,MayorMonty,0.0.0
 at-rs,MathiasKoch,0.0.8
+atdir,cehteh,0.0.1-wip
 atelier_openapi,johnstonskj,0.1.0
 athena,TakWolf,0.0.0
 atlaskit-oss,r3v2d0g,0.0.0
@@ -2742,6 +2744,7 @@ dom,overdrivenpotato,0.0.0
 dome,ihciah,0.0.1
 dominance,ericwburden,0.1.0
 domo-dht,lu-zero,0.0.0
+done,nanzhong,0.0.0-reserve
 doom,nbittich,0.1.1
 doom-task,gudn,0.1.0
 dopamine,rustpark,0.0.0
@@ -8161,6 +8164,8 @@ repent,wycats,0.1.0
 replicant,tatupesonen,0.1.0
 replicator,nmccarty,0.0.0
 repo,snnsnn,0.0.0
+repomake,torkleyy,0.0.0-reserve
+repomake-dsl,torkleyy,0.0.0-reserve
 report,snnsnn,0.1.0
 reporter,snnsnn,0.1.0
 repotoire,tony-iqlusion,0.0.0
@@ -10976,6 +10981,7 @@ verifiable-random-function,tony-iqlusion,0.0.0
 verifiable-randomness,tony-iqlusion,0.0.0
 verihash,tarcieri,0.0.0
 verity,tillulen,0.0.0
+vermilion,bluejekyll,0.0.0-unreleased
 vermilionrc,bluejekyll,0.0.0-unreleased
 veronicakv,mbStavola,0.0.0
 verse,JeanMertz,0.0.2
