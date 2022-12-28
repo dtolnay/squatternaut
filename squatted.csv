@@ -1098,7 +1098,6 @@ bfd-sys,ch1rh0,0.0.0
 bfile,heySasha,0.1.0
 bft,qcqi,0.0.1
 bfv,gpestana,0.1.0
-bg,EqualMa,0.1.0
 bgp,krisprice,0.1.0
 bh,swmon,0.0.0
 biased-rc,jcrevier,0.1.0
@@ -2699,7 +2698,6 @@ dk,andres-roman,0.0.0
 dkdc,lostmygithubaccount,0.1.0
 dkernel-firestore,ryo33,0.0.0
 dkernel-in-memory,ryo33,0.0.0
-dkim-milter,glts,0.0.0
 DknyYRP90wDXhncp,blallo,0.1.2
 dl,IvanUkhov,0.0.2
 dloadhelper-sys,retep998,0.0.1
@@ -3045,7 +3043,6 @@ elonmusk,btwiuse,0.1.0
 els-sys,retep998,0.0.1
 elscore-sys,retep998,0.0.1
 else,rustpark,0.0.0
-elves,janezicmatej,0.0.2
 elvish,strake,0.0.0
 emailer,bevanhunt,0.0.1
 embassy,Dirbaio,0.0.0
@@ -4660,7 +4657,6 @@ icmui-sys,retep998,0.0.1
 icon,snnsnn,0.1.0
 icons,snnsnn,0.1.0
 icp,newpavlov,0.0.0
-icrate,madsmtm,0.0.0
 ict,r34lm63157,0.1.3
 icu_display,zbraniecki,0.0.1
 icu_duration,zbraniecki,0.0.1
@@ -5632,7 +5628,6 @@ lockbox,OxygenCobalt,0.0.1
 lockchain-client,spacekookie,0.0.0
 lockdown,pontaoski,0.1.0
 locke,VivekPanyam,0.0.0
-lockness,SUPERCILEX,0.0.0
 locks,swmon,0.0.0
 loco,ekoutanov,0.0.0
 lodash,afshinm,0.1.0
@@ -6734,7 +6729,6 @@ nonbiri,slanterns,0.1.0
 none,giripriyadarshan,0.0.1
 nonlinear,rrybarczyk,0.1.0
 nono,hisbaan,0.0.1
-nonscalar,hunterlawson,0.1.0
 noop,arturoc,0.1.0
 nop,vertexclique,0.0.0
 nopanic,dtolnay,0.0.0
@@ -8056,8 +8050,8 @@ rayray,jstasiak,0.1.0
 razorpay_rust,OutOfBoundCats,0.0.1
 rblock,dyxushuai,0.1.0
 rblx,7ap,0.0.0
-rbsg-backend,Bernd-L,0.0.1
-rbsg-frontend,Bernd-L,0.0.0
+rbsg-backend,Tanja-4732,0.0.1
+rbsg-frontend,Tanja-4732,0.0.0
 rbx_dom,LPGhatguy,0.1.0
 rbxl,LPGhatguy,0.1.0
 rbxlx,LPGhatguy,0.1.0
@@ -8443,7 +8437,6 @@ rpmrepo_comps,dralley,0.1.0
 rpmrepo_download,dralley,0.1.0
 rpmsign,tony-iqlusion,0.0.1
 rpp,hzqd,0.0.0
-rps,mxpv,0.1.0
 rqnd,blallo,0.1.2
 rqq,a-kenji,0.1.0
 rqxl,andrew-johnson-4,0.0.1
@@ -9101,7 +9094,7 @@ serde-example,dtolnay,0.0.0
 serde_growable_stack,dtolnay,0.0.0
 serde_netcdf,thomasmarcel,0.1.0
 serde_plugin,dtolnay,0.0.0
-serde_sane-rs,skerkour,0.2.0
+serde_sane-rs,skerkour-dev,0.2.0
 serde-tezos,r3v2d0g,0.0.0
 serde_toml,bbqsrc,0.0.0
 serde_wxf,oovm,0.0.1
@@ -9133,10 +9126,10 @@ setxid,kbknapp,0.0.0
 sexyshell,GaoangLiu,0.0.1
 sfbart,dfrankland,0.1.0
 sfc-sys,retep998,0.0.1
-sfi-core,Bernd-L,0.0.0
-sfi-gtk,Bernd-L,0.0.0
-sfi-server,Bernd-L,0.0.0
-sfi-web,Bernd-L,0.0.0
+sfi-core,Tanja-4732,0.0.0
+sfi-gtk,Tanja-4732,0.0.0
+sfi-server,Tanja-4732,0.0.0
+sfi-web,Tanja-4732,0.0.0
 sfloat,eddyb,0.0.0
 sfs,arpanlaha,0.0.1
 sfsb,tony-iqlusion,0.0.0
@@ -10660,7 +10653,7 @@ ttv-webhooks,Waridley,0.1.1
 ttvm,sahdjfg,0.4.7
 tty-input,strake,0.0.0
 tu,Vendelieu,0.0.0
-tube-get,Bernd-L,0.0.0
+tube-get,Tanja-4732,0.0.0
 tube-rs,1Kinoti,0.1.0
 tubed,trevyn,0.0.0
 tuber,trevyn,0.0.0
@@ -12090,10 +12083,6 @@ zeil,jensmeindertsma,0.1.0
 zeit,ecstatic-morse,0.0.0
 Zen,bytebuddha,0.0.0
 zenmap,0xSiO,0.0.0
-zenoh-backend-filesystem,JEnoch,0.0.0
-zenoh-backend-influxdb,JEnoch,0.0.0
-zenoh-backend-rocksdb,JEnoch,0.0.0
-zenoh-backend-s3,JEnoch,0.0.0
 zenoh-backend-sql,JEnoch,0.0.0
 zenoh-flow,gabrik,0.0.0
 zenoh-flow-daemon,gabrik,0.0.0
@@ -12173,8 +12162,6 @@ zorya,tomb85,0.1.0
 zq,hzqd,0.0.0
 zqueak,feddasch,0.0.0
 zro,strake,0.0.0
-zrpc,gabrik,0.0.0
-zrpc-macros,gabrik,0.0.0
 zs,al8n,0.1.0
 zscript,zarmot,0.100.0
 zscript-core,zarmot,0.100.0
