@@ -35,7 +35,7 @@ absence,tony-iqlusion,0.0.0
 abx,lovesegfault,0.1.0
 abyss,dylanwishner,0.1.0
 ac,XorSum,0.1.0
-accelerate,,0.0.1
+accelerate,IvanUkhov,0.0.1
 accent,robjtede,0.0.0
 accent-net,robjtede,0.0.0
 accept,codehorseman,0.1.1
@@ -768,7 +768,7 @@ autovcpkg,fungos,0.0.1
 autovcpkg-build,fungos,0.0.1
 auula,auula,0.1.0
 aux_ulib-sys,retep998,0.0.1
-av,,0.1.0
+av,panicbit,0.1.0
 av-store,marlonhanks,0.0.0
 av1,est31,0.0.0
 ava,ggf84,0.0.3
@@ -890,7 +890,7 @@ barista,soumya92,0.0.1
 barista-modules,soumya92,0.0.1
 barium,quigly,0.1.0
 barkup,hiway,0.0.2
-barn,,0.0.0
+barn,s3bk,0.0.0
 barn-rs,MichaelStott,0.1.0
 baroque,whbrown,0.1.0
 bars,HalidOdat,0.1.0
@@ -1119,7 +1119,7 @@ bing,hshe,0.1.0
 binhex,Deric-W,0.1.0
 binrw_codegen,ThePuzzlemaker,0.0.0
 binrw_codegen_impl,ThePuzzlemaker,0.0.0
-binstall,,0.1.0
+binstall,ashleygwilliams,0.1.0
 binvis,cortesi,0.1.0
 biolib,jeppe-biolib,0.1.0
 bioluminescence,oem,0.0.1
@@ -1162,7 +1162,7 @@ blackjack_godot,setzer22,0.0.0
 blackjack_nodes,setzer22,0.0.0
 blackjack_ui,setzer22,0.0.0
 blacklist,andres-roman,0.0.0
-blacklung,,0.0.1
+blacklung,tripokey,0.0.1
 blacksmith,rustpark,0.0.0
 blackstone,nekodjin,0.1.0
 blade,kvark,0.0.1
@@ -1557,7 +1557,7 @@ capacitor,thevpatel,0.0.0
 capacore,tony-iqlusion,0.0.0
 capisco,ErichDonGubler,0.0.0
 cappuccino,0xFounders,0.1.0
-capybara,,0.1.0
+capybara,konstin,0.1.0
 car,swmon,0.0.0
 carbon-dump,oovm,1.2.2
 carbon-lib,oovm,0.3.1
@@ -1868,7 +1868,7 @@ clack,dfrankland,0.1.0
 clamor,tony-iqlusion,0.0.0
 clandestine,aDotInTheVoid,0.0.0
 clang-ast-test-suite,dtolnay,0.0.0
-clap-man,,0.0.0
+clap-man,killercup,0.0.0
 clash,dyxushuai,0.1.0
 clasp,tony-iqlusion,0.0.0
 class,swmon,0.0.0
@@ -1954,7 +1954,7 @@ codec-serde,carllerche,0.0.0
 codemilli,codemilli,0.1.0
 codemod,dtolnay,0.0.0
 codepub,sorpaas,0.1.0
-coder543-openldap,,0.2.1
+coder543-openldap,seanjensengrey,0.2.1
 codeshaper,OriDevTeam,0.1.0
 codeshot,ltoddy,0.1.0
 codetour,sunjay,0.0.0
@@ -2031,7 +2031,7 @@ config-provider,vkill,0.0.0
 config-reader,vkill,0.0.0
 configuration-provider,vkill,0.0.0
 configuration-reader,vkill,0.0.0
-conjure,,0.0.0
+conjure,tarcieri,0.0.0
 conker,Asriel,0.1.0
 conlog,jrobsonchase,0.0.0
 conmon,snnsnn,0.1.0
@@ -2060,7 +2060,7 @@ contextualize,a-kenji,0.1.0
 continue,rustpark,0.0.0
 contract,swmon,0.0.0
 contract-info,cmichi,0.0.0
-contract-kit,,0.0.0
+contract-kit,david-yan,0.0.0
 contracts-interface,marlonhanks,0.0.0
 contracts-rococo-runtime,parity-crate-owner,0.0.0
 conventional-commits-formatter,mainrs,0.0.0
@@ -2094,7 +2094,7 @@ core-runtime,soc,0.0.0
 coredumper,noxiouz,0.1.0
 corefish,jix,0.0.0
 corefp-lingo,tsao-chi,0.0.0
-coreio,,0.0.1
+coreio,carllerche,0.0.1
 corerel-lingo,tsao-chi,0.0.0
 corewa_rs,ian-h-chamberlain,0.0.2
 corewars-parser,ian-h-chamberlain,0.2.0
@@ -2658,7 +2658,7 @@ dinput8-sys,retep998,0.0.1
 diode,overdrivenpotato,0.0.0
 dion,Thomasdezeeuw,0.0.0
 dioxus-use-clipboard,oovm,0.1.0
-dirac,,0.0.0
+dirac,est31,0.0.0
 dircfg,spacekookie,0.0.0
 directory,carols10cents,0.0.0
 directx_mesh,aloucks,0.0.0
@@ -3015,7 +3015,7 @@ einsum,sevro,0.1.0
 eips,taylordotfish,0.1.0
 eirene,Shiiyu,0.1.0
 eisen,Ipotrick,0.1.0
-ekiden,,0.0.0
+ekiden,david-yan,0.0.0
 eko,ravern,0.0.3
 ekv,Dirbaio,0.0.0
 el,strake,0.0.0
@@ -3120,9 +3120,9 @@ endpoint,thevpatel,0.0.0
 ene,quininer,0.0.0
 ene-core,quininer,0.0.0
 energy,thevpatel,0.0.0
-energymon,,0.1.0
-energymon-default-sys,,0.1.0
-energymon-sys,,0.1.0
+energymon,SimonSapin,0.1.0
+energymon-default-sys,SimonSapin,0.1.0
+energymon-sys,SimonSapin,0.1.0
 eng,dlunch,0.0.1
 engi,dlunch,0.0.1
 engin,jsgrant,999999999.999999999.999999999
@@ -3455,7 +3455,7 @@ fesh,jayeshbadwaik,0.1.2
 festival,fossdd,0.0.0
 ffdh,tarcieri,0.0.0
 ffi,magnets-moe-dumper,0.0.2
-ffv1,,0.0.0
+ffv1,est31,0.0.0
 fgs,maraisr,0.0.1
 fhsvcctl-sys,retep998,0.0.1
 fiat,marlonhanks,0.0.0
@@ -3711,14 +3711,14 @@ fs_collections,JKAnderson409,0.1.0
 fs_iter,JKAnderson409,0.1.0
 fs_lib,solaeus,0.1.0
 fs-sparse,jmesmon,0.0.0
-fse,,0.1.0
+fse,0xd34d10cc,0.1.0
 ft,strake,0.0.0
 ftl,novacrazy,0.0.0
 ftlsp,a-kenji,0.1.0
 fubar,andres-roman,0.0.0
 fubuki,nnazo,0.0.0
-fuchsia,,0.1.0
-fuchsia-app,,0.1.0
+fuchsia,cramertj,0.1.0
+fuchsia-app,cramertj,0.1.0
 fuchsia-core,cramertj,0.1.0
 fuchsia-service,cramertj,0.1.0
 fuchsia-sys,cramertj,0.1.0
@@ -4211,7 +4211,7 @@ grog,slash3g,0.0.0
 grogu,aleksmelnikov,0.0.1
 groovy,thechampagne,0.1.0
 grossbuch,antage,0.0.0
-groth16,,0.0.0
+groth16,ebfull,0.0.0
 ground,marlonhanks,0.0.0
 group_derive,str4d,0.0.0
 groupme,DevOrc,0.0.1
@@ -4244,7 +4244,7 @@ gst-plugin-y4m,sdroege,0.0.0
 gstd,shamilsan,0.0.1
 gstreamer-elements,sdroege,0.0.0
 gstreamer-gl-integration,sdroege,0.0.0
-gstreamer-tag,,0.0.0
+gstreamer-tag,sdroege,0.0.0
 gstreamer-vulkan,sdroege,0.0.0
 gstreamer-vulkan-sys,sdroege,0.0.0
 gsuite,tony-iqlusion,0.0.0
@@ -5083,7 +5083,7 @@ kanren,xieyuheng,0.1.1
 kanvas-rs,chip2n,0.1.0
 kappa,EazyReal,0.0.1
 kar,vertexclique,0.0.0
-kara,,0.0.0
+kara,david-yan,0.0.0
 karabinux,acheronfail,0.1.0
 karabinux_cli,acheronfail,0.1.0
 karcl,krircc,0.1.0
@@ -5294,7 +5294,7 @@ kwiwk-option,russleyshaw,0.1.0
 kwiwk-result,russleyshaw,0.1.0
 kylo,ekoutanov,0.0.0
 l,losfair,0.1.0
-l3-37,,0.0.0
+l3-37,jwilm,0.0.0
 labeler,a-kenji,0.1.0
 labrat,Vypo,0.1.0
 labview,TResell,0.1.0
@@ -5523,7 +5523,7 @@ limn,christolliday,0.0.0
 limonade,thinkrapido,0.0.0
 lin_alg,jaredforth,0.0.0
 linear,IvanUkhov,0.2.0
-linearmap,,0.0.3
+linearmap,bluss,0.0.3
 linebreaks,dtolnay,0.0.0
 linen,Kerollmops,0.1.0
 linen-core,Kerollmops,0.1.0
@@ -5883,11 +5883,11 @@ mars-t,piotrbajdek,0.0.0-alpha.2
 marsc,alimy,0.1.0
 marte,Quidrex,0.0.0
 marvel-api-rs,yves-bonami,0.0.0
-marvin,,0.1.0
+marvin,steveklabnik,0.1.0
 masm,sstangl,0.0.0
 masonry,rosshays,0.1.0
 masque,hr567,0.0.0
-masquerade,,0.1.0
+masquerade,karoofish,0.1.0
 massdriver_appkit,sid405,0.0.1
 massdriver_gtk,sid405,0.0.1
 massdriver_win,sid405,0.0.1
@@ -6065,7 +6065,7 @@ messloc,Dylan-DPC,0.0.0
 meta,rust-lang-owner,0.1.1
 metaemu,zt-chen,0.0.0
 metaemu-run,zt-chen,0.1.0
-metagener,,0.1.0
+metagener,tupshin,0.1.0
 metalab,noahpnio,0.1.0
 metalkit,adamnemecek,0.1.0
 metalloid,zenria,0.0.0
@@ -6409,7 +6409,7 @@ mr,eiz,0.1.0
 mri,maraisr,0.0.1
 mrin,mebiusashan,0.1.0
 mrm,bryantbiggs,0.0.0
-mrpt,,0.1.0
+mrpt,jolting,0.1.0
 mrs,newca12,0.1.0
 mrsa,phR0ze,0.1.2
 mrt-nom,quentusrex,0.1.0
@@ -6876,13 +6876,13 @@ oakley,tarcieri,0.0.0
 oar,a-kenji,0.0.0
 oasis,kjmrknsn,0.0.0
 oasis-core,nhynes,0.0.0
-oasis-labs,,0.1.0
+oasis-labs,david-yan,0.1.0
 oasis-node,nhynes,0.0.1
 oasis-parity,nhynes,0.0.0
 oasis-runtime,nhynes,0.0.0
-oasis-wasm,,0.1.0
+oasis-wasm,david-yan,0.1.0
 oasis-wasmi,nhynes,0.0.0
-oasislabs,,0.1.0
+oasislabs,david-yan,0.1.0
 oauth,mikhail-krainik,0.0.1
 oauth1a,davidclevenger,0.1.1
 oauth2-cli,vkill,0.0.0
@@ -7136,7 +7136,7 @@ ovr-evm-precompile-sha3fips,ccmlm,2.0.0
 ovr-evm-precompile-simple,ccmlm,2.0.0
 ovr-evm-test-vector-support,ccmlm,1.0.0
 ovr-fp-evm,ccmlm,3.0.0
-owasmi,,0.1.0
+owasmi,david-yan,0.1.0
 own,strake,0.0.0
 owned-string,strake,0.0.0
 owner,strake,0.0.0
@@ -7326,7 +7326,7 @@ pdfkit,Ahmed-Ali,0.1.0
 pdh-sys,retep998,0.0.1
 pdsl,parity-crate-owner,0.1.0
 pdsl_core,parity-crate-owner,0.1.0
-pdsl_derive,,0.1.0
+pdsl_derive,chevdor,0.1.0
 peacash,Lyserith,0.0.0
 peak,DenisKolodin,0.1.0
 pearlite,xldenis,0.1.0
@@ -7427,7 +7427,7 @@ piggy,6syy,0.1.0
 pigment,snnsnn,0.0.0
 pika-test,xxninjabunnyxx,0.0.1
 pikelet,brendanzab,0.0.0
-pilcrow,,0.0.0
+pilcrow,SimonSapin,0.0.0
 pili,fundon,0.0.0
 pin-project-auxiliary-macro,taiki-e,0.0.0
 pincli,vincecima,0.1.1
@@ -7484,7 +7484,7 @@ pkhexcore,inspier,0.1.0
 pkmn,mcy,0.0.0
 pl,strake,0.0.0
 placeholder-brchd,kpcyrd,0.0.0
-placer,,0.1.0
+placer,tarcieri,0.1.0
 places,VivekPanyam,0.0.0
 plaid-openapi,kurtbuilds,3.0.0
 planc,Richard-W,0.0.0
@@ -7829,7 +7829,7 @@ pvc,str4d,0.0.0
 pwasm,Vurich,0.1.0
 pwf,Nainterceptor,0.1.0
 pwning,lehrbaumm,0.1.0
-py,,0.0.0
+py,s3bk,0.0.0
 pyltime,jaroslavpachola,0.0.1
 pypm,noirbizarre,0.1.0
 pyrate,DD5HT,0.1.0
@@ -8119,7 +8119,7 @@ redbar,delta1024,0.0.1
 redbarn,arniu,0.0.1
 redblack,alive,0.1.0
 redbox,arniu,0.0.1
-reddit,,0.0.0
+reddit,jhance,0.0.0
 reddit-api,proudmuslim-dev,0.1.0
 redexos,francisco9482,0.1.1
 redgold,ryle-goehausen,0.0.1
@@ -8136,7 +8136,7 @@ refcell2,jethrogb,0.1.1
 refcounted,burtonageo,0.1.0
 reference,dineshdb,0.1.0
 reflector,glowcoil,0.0.0
-reflow,,0.1.0
+reflow,lvar0,0.1.0
 refresh,cfal,0.1.0
 reg,strake,0.0.0
 regalia,sismeon,0.0.1
@@ -8331,7 +8331,7 @@ rld,wyc,0.1.0
 rlint,Vendelieu,0.0.0
 rlm,thomcc,0.0.1
 rlox,Karrq,0.0.1
-rls,,0.122.2
+rls,nrc,0.122.2
 rlutilities,tarcieri,0.0.0
 rmail,nbari,0.0.1
 rmdb,tarcieri,0.0.0
@@ -8742,7 +8742,7 @@ rust-tutorial,davidtaddei,0.1.0
 rust_tutorials,solenovex,0.1.0
 rust_tutorials_lcx,faithsmile,0.1.0
 rust-ui,ay42,0.1.0
-rust2c,,0.0.1
+rust2c,nasa42,0.0.1
 rust2x,nasa42,0.0.1
 rustang,m-cat,0.0.1
 rustapi,kgv,0.1.0
@@ -8990,7 +8990,7 @@ schiro,Nigecat,0.0.1
 schlange,trevyn,0.0.0
 schoolnoose,EthanYidong,1.0.0
 Schoology-rs,snaapsh0t12,0.1.0
-sci,,0.0.0
+sci,s3bk,0.0.0
 science,sora-0314,0.1.0
 scim,Firstyear,0.1.0
 scope,pmuens,0.0.2
@@ -9313,7 +9313,7 @@ sls,Artanu,0.0.0
 slwga-sys,retep998,0.0.1
 sly,monsanto,0.0.1
 sm_primitives,somniumism,0.1.0
-small,,0.1.0
+small,ashleygwilliams,0.1.0
 smallest-enclosing-ball,oovm,0.1.0
 smallo,sharpvik,0.0.1
 smartoris,valff,0.1.0
@@ -9831,7 +9831,7 @@ tabletop,utilForever,0.0.1
 tabulate-rs,utilForever,0.1.0
 tabuleto,r3v2d0g,0.0.0
 tachy,hkmatsumoto,0.0.0
-tachyon,,0.0.0
+tachyon,freebroccolo,0.0.0
 tack-it-on,ChrisWellsWood,1.0.1
 tackdb,mtso,0.1.0
 tactics,remipetitjean,0.1.0
@@ -10387,7 +10387,7 @@ tokio-bound,carllerche,0.0.0
 tokio-bridge,carllerche,0.0.0
 tokio-bsg,imp,0.0.0
 tokio-bytes,carllerche,0.0.0
-tokio-cassandra,,0.0.0
+tokio-cassandra,nhellwig,0.0.0
 tokio-cdp,spinda,0.0.0
 tokio-cli,carllerche,0.0.0
 tokio-clickhouse,fdhadzh,0.0.1
@@ -10838,7 +10838,7 @@ unicorn-adapter-https,kaustavdm,0.0.1
 unicorn2d,AlexGarrity,0.1.0
 unicows-sys,retep998,0.0.1
 unigraph,aaronabramov,0.1.0
-uninstall,,0.0.0
+uninstall,bgeron-typosquatting-protect,0.0.0
 unio,uniodev,0.0.0
 unipay,maoeryan,0.0.0
 unipay-sdk-rs,maoeryan,0.0.0
@@ -11080,7 +11080,7 @@ viz-engine,fundon,0.0.0
 viz-flow,fundon,0.0.0
 vizia,geom3trik,0.1.0
 vizier,vizier-rs,0.1.0
-vk,,0.0.1
+vk,emberian,0.0.1
 vkd,aloucks,0.0.1
 vkn,strake,0.0.0
 vkvk,Lokathor,0.0.0-alpha
@@ -11302,7 +11302,7 @@ web-services,snnsnn,0.1.0
 web-test,carllerche,0.0.0
 web0,wusyong,0.1.0
 web3-rs,hzqd,0.0.0
-web3c,,0.0.0
+web3c,david-yan,0.0.0
 webasm,0xxFF,0.1.0
 webaudio,adamnemecek,0.1.0
 webcrypto-ctr,newpavlov,0.0.0
@@ -11903,7 +11903,7 @@ xdb_derive,haxjump,0.1.0
 xdg-desktop-entry,joshuachp,0.1.0
 xdk,tmechelke,0.1.1
 xdv,marlonhanks,0.0.0
-xenstore,,0.0.0
+xenstore,cardoe,0.0.0
 xeon,WrapFX,0.1.0
 xerces,marlonhanks,0.1.0
 xerde,EzequielRamis,0.1.0
@@ -12178,7 +12178,7 @@ zvm,zarmot,0.0.0
 zvm-core,zarmot,0.100.0
 zweiren,vi77,0.1.0
 zwr,vi77,0.1.0
-zx,,0.1.0
+zx,cramertj,0.1.0
 zx-sys,cramertj,0.1.0
 zxruntime,cramertj,0.1.0
 zyn,blallo,0.1.2
