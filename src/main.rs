@@ -77,8 +77,8 @@ fn try_main(stderr: &mut StandardStream) -> Result<()> {
             if let OwnerId::User(user_id) = row.owner_id {
                 crate_owners
                     .entry(row.crate_id)
-                    .or_insert_with(Vec::new)
-                    .push(user_id);
+                    .or_insert_with(Set::new)
+                    .insert((row.created_at, user_id));
             }
         })
         .users(|row| {
@@ -135,15 +135,29 @@ fn try_main(stderr: &mut StandardStream) -> Result<()> {
     for name in squatted {
         let crate_id = crate_name_to_id[&name];
         let version = &versions[&crate_id];
-        let owners = if let Some(published_by) = version.published_by {
-            vec![published_by]
-        } else {
-            crate_owners
-                .get(&crate_id)
-                .map_or_else(Vec::new, Vec::clone)
-        };
-        let user = if owners.len() == 1 {
-            users[&owners[0]].clone()
+        let mut all_owners = Set::new();
+        let mut publish_owner = None;
+        if let Some(published_by) = version.published_by {
+            all_owners.insert(published_by);
+            publish_owner = Some(published_by);
+        }
+        if let Some(ordered_owners) = crate_owners.get(&crate_id) {
+            all_owners.extend(ordered_owners.iter().map(|(_created, user_id)| *user_id));
+            if publish_owner.is_none() {
+                let mut owners_iter = ordered_owners.iter();
+                match (owners_iter.next(), owners_iter.next()) {
+                    (Some((_created, user_id)), None) => publish_owner = Some(*user_id),
+                    (Some((first_created, user_id)), Some((second_created, _)))
+                        if first_created < second_created =>
+                    {
+                        publish_owner = Some(*user_id);
+                    }
+                    _ => {}
+                }
+            }
+        }
+        let user = if let Some(publish_owner) = publish_owner {
+            users[&publish_owner].clone()
         } else {
             String::new()
         };
@@ -152,7 +166,7 @@ fn try_main(stderr: &mut StandardStream) -> Result<()> {
             user,
             version: Some(version.num.clone()),
         })?;
-        for user_id in owners {
+        for user_id in all_owners {
             *leaderboard.entry(user_id).or_insert(0) += 1;
         }
     }
