@@ -5437,6 +5437,8 @@ libnice-rs,abdul-0,0.1.0
 libntpsec-sys,Perseus101,0.1.1
 libnx,zarmot,0.1.0
 liborbit,irj,0.0.1
+libpacstall,TylerJerme,2.0.0
+libpacstall-rs,TylerJerme,2.0.0
 libplatform,IsaacWoods,0.0.0
 libpod,snnsnn,0.1.0
 libpodcast,njaremko,0.0.1
@@ -7188,6 +7190,10 @@ package,carols10cents,0.0.0
 packagename,carols10cents,0.0.0
 packages,carols10cents,0.0.0
 paclet,jayeshbadwaik,0.0.1
+pacstall,TylerJerme,2.0.0
+pacstall-rs,TylerJerme,2.0.0
+pacup,TylerJerme,2.0.0
+pacup-rs,TylerJerme,2.0.0
 pacy,cwfitzgerald,0.0.0
 page,alluet,0.0.0
 pageflip,boozook,0.0.0
