@@ -1,4 +1,5 @@
 #![allow(
+    clippy::let_underscore_untyped,
     clippy::module_name_repetitions,
     clippy::too_many_lines,
     clippy::uninlined_format_args
