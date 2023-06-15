@@ -10,5 +10,6 @@ anyhow = "1"
 csv = "1"
 db-dump = "0.4"
 semver = "1"
-serde = { version = "1", features = ["derive"] }
+serde = "1"
+serde_derive = "1"
 termcolor = "1"

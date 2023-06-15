@@ -1,4 +1,4 @@
-use serde::{Deserialize, Serialize};
+use serde_derive::{Deserialize, Serialize};
 use std::cmp::Ordering;
 use std::fmt::{self, Display};
 

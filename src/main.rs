@@ -13,7 +13,7 @@ use crate::name::CrateName;
 use anyhow::Result;
 use db_dump::crate_owners::OwnerId;
 use semver::Version;
-use serde::{Deserialize, Serialize};
+use serde_derive::{Deserialize, Serialize};
 use std::cmp::Reverse;
 use std::collections::btree_map::{BTreeMap as Map, Entry};
 use std::collections::BTreeSet as Set;
