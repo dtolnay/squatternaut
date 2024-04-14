@@ -8,7 +8,7 @@ publish = false
 [dependencies]
 anyhow = "1"
 csv = "1"
-db-dump = "0.6"
+db-dump = "0.7"
 semver = "1"
 serde = "1"
 serde_derive = "1"
